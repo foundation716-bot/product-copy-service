@@ -1,0 +1,10 @@
+[Unit]
+Description=Check ECR for a new product-copy-service image
+
+[Timer]
+OnBootSec=1min
+OnUnitInactiveSec=1min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
